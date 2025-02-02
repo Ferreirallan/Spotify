@@ -93,6 +93,8 @@ main{
     padding: 8px 16px; 
     border-radius: 20px;
     width: 300px;
+    margin-left: 550px;
+    padding-left: 20px;
 }
 
 .logo-home button{
@@ -103,16 +105,14 @@ main{
     margin-bottom: 20px;
     font-size: 20px;
     cursor: pointer;
-    
 }
 .search-bar input{
     background-color: transparent;
     border: none;
     color: white;
     width: 100%;
-    margin-left: 10px;
+    margin-left: 30px;
     outline: none;
-    
 }
 .artists-grid, .albums-grid{
     display: grid;
@@ -120,7 +120,7 @@ main{
     gap: 24px;
     margin-bottom: 40px;
 }
-.artist-card, .album-card{
+.album-card{
     background-color: #181818;
     padding: 16px;
     border-radius: 8px;
@@ -131,20 +131,37 @@ main{
     flex-direction: column;
     justify-content: space-around;
 }
-.artist-card:hover, .album-card:hover{
+.album-card:hover{
     background-color: #282828;
 }
-.artist-card img, .album-card img{
+.artist-card img{
+    width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    cursor: pointer;
+    
+}
+.album-card img{
     width: 100%;
     max-height: 100%;
     border-radius: 5%;
     margin-bottom: 50px;
     
 }
-.artist-card h3, .album-card h3{
+.artist-card h3{
+    font-size: 12px;
+    text-align: center;
+}
+.artist-card p{
+    font-size: 10px;
+    color: #a7a7a7;
+    text-align: center;
+}
+.album-card h3{
     font-size: 12px;
 }
-.artist-card p, .album-card p{
+.album-card p{
     font-size: 10px;
     color: #a7a7a7;
 }

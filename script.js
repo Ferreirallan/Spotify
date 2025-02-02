@@ -1,21 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
     const artistsData = [
-        { name: 'Costa Gold', image: './img/album-costagold.jpg' },
-        { name: 'Bad Bunny', image: './img/album-DeBí TiRAR MáS FOToS.jpg' },
-        { name: 'Drake', image: './img/album-drake.jpg' },
-        { name: 'Eminem', image: './img/album-eminem.jpg' },
-        { name: 'Jorge Vercillo', image: './img/albumjorgevercillo.jpg' },
-        { name: 'Justin Biber', image: './img/album-justin.jpg' }
+        { name: 'Thiago Veigh', image: './img/imagesveigh.jpg' },
+        { name: 'Thalles Roberto', image: './img/downloadthalles.jpg' },
+        { name: 'Drake', image: './img/imagesdrake.jpg' },
+        { name: 'Eminem', image: './img/downloademinem.jpg' },
+        { name: 'Jorge Vercillo', image: './img/jorgevercillo.jpg' },
+        { name: 'Justin Biber', image: './img/downloadjustinbiber.jpg' }
     ];
     
 
     const albumsData = [
-        { name: 'Compton', artist: 'Kendrick', image: './img/album-kendrick.jpg' },
-        { name: 'Passionfruit', artist: 'Drake', image: './img/album-morelife.jpg' },
+        { name: 'Good Kid', artist: 'Kendrick', image: './img/album-kendrick.jpg' },
+        { name: 'More Life', artist: 'Drake', image: './img/album-morelife.jpg' },
         { name: 'Nada como um dia após o outro', artist: 'Racionais', image: './img/album-racionais.jpg' },
-        { name: 'Deus está aqui', artist: 'Thalles Roberto', image: './img/album-thallesroberto.jpg' },
+        { name: 'Adjust To The Game', artist: 'Larry June', image: './img/larryjune.jpg' },
         { name: 'Face Oculta', artist: 'Trilha Sonora do Gueto', image: './img/album-trilasonoradogueto.jpg' },
-        { name: 'Sublime', artist: 'Leonardo Gonlçaves', image: './img/album-leonardo.jpg' }
+        { name: 'Principio', artist: 'Leonardo Gonlçaves', image: './img/album-leonardo.jpg' }
     ];
 
         const artistGrid = document.querySelector('.artists-grid')
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${artist.image}" alt="imagem do ${artist.name}">
                 <div>
                      <h3>${artist.name}</h3>
-                     <p>artista</p>
+                     <p>Artista</p>
                 </div>
                     
                 
@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <img src="${album.image}" alt="imagem do ${album.name}">
                 <div>
                     <h3>${album.name}</h3>
-                     <p>${album.name}</p>
+                     <p>Álbum</p>
                 </div>
                 
             `
