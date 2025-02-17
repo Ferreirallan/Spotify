@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
 
     const albumsData = [
-        { name: 'Good Kid', artist: 'Kendrick', image: './img/album-kendrick.jpg' },
+        { name: '$ome $exy $ongs 4 U', artist: 'Drake & Partynextdoor', image: './img/album-drake-party.jpg' },
         { name: 'More Life', artist: 'Drake', image: './img/album-morelife.jpg' },
         { name: 'Nada como um dia após o outro', artist: 'Racionais', image: './img/album-racionais.jpg' },
         { name: 'Adjust To The Game', artist: 'Larry June', image: './img/larryjune.jpg' },
